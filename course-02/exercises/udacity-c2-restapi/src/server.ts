@@ -29,7 +29,8 @@ import { V0MODELS } from './controllers/v0/model.index';
   app.get( "/", async ( req, res ) => {
     res.send( "/api/v0/" );
   } );
-  
+      //"start": "node server.js",
+
 
   // Start the Server
   app.listen( port, () => {
